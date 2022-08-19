@@ -17,8 +17,11 @@
         <legend>Personal information</legend>
         <label class="forms-field" >
       Surname:
-          <input type="text" 
-          name="surn" autocomplete="off">
+          <input 
+            type="text" 
+            name="surn" 
+            autocomplete="off"
+          >
         </label>
         <label class="forms-field">
       Name:
@@ -68,12 +71,22 @@
           </label>
         </div>
         <label class="forms-field">
+          Chose your color:
+          <input type="color" name="col" 
+              required>
+        </label>
+        <label class="forms-field">
+              What time do yo go to bed:
+          <input type="time" 
+          name="tim" class="bad">
+        </label>
+        <label class="forms-field">
 What are your favourite brand of cars?
           <select id="cars" name="cars" 
           multiple>
             <option value="bmw">Bmw</option>
             <option value="audi">Audi</option>
-            <option value="mercedes">Mercedes</option>
+            <option value="mercedes">Lada</option>
           </select>
         </label>
         </label>
@@ -81,15 +94,6 @@ What are your favourite brand of cars?
       How do you rate our work:
           <input type="range" name="rang" 
           value="0">
-        </label>
-        <label class="forms-field">
-      What time do yo go to bed:
-          <input type="time" name="tim">
-        </label>
-        <label class="forms-field">
-      Chose your color:
-          <input type="color" name="col" 
-          required>
         </label>
       </fieldset>
       <fieldset class="rum">
